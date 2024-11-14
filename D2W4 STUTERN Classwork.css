@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* outline: 1px solid; */
+}
+body{
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 40px;
+    background-color: #fff;
+}
+a{
+    color: #1C1C1C;
+    text-decoration: none;
+    font-size: 15px;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown div{
+    position: absolute;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.3rem;
+    width: 18rem;
+    z-index: 1;
+
+}
+main a{
+    font-size: medium;
+
+}
+.our{
+    color: #665A4F;
+}
+.line{
+    position: relative;
+    margin-right: 10rem;
+}
+.dropdown:hover div{
+    display: flex;
+}
+section{
+    width: 100%;
+    height: 43rem;
+background-color: #e6f8f9;
+}
+
+
+/* .finegirl{
+    width: 300px;
+    height: 500px;
+    background-color: red;
+    margin: auto;
+} */
+.beauty{
+    width: 300px;
+    height: 450px;
+    background-color:yellow;
+    margin: auto;
+    left: 30rem;
+    bottom: 55.7rem;
+    /* bottom: 10rem; */
+    border-radius: 0.5rem 0.5rem 0 0;
+    position: relative;
+    background: url(../../../../Downloads/red\ girl.png);
+    background-position: center;
+    background-size: cover;
+}
+.finegirl{
+    background-color: red;
+    width: 300px;
+    height: 500px;
+    margin-left:60rem;
+    position: relative;
+    bottom: 33rem;
+    border-radius: 0.5rem;
+    background: url(../../../../Downloads/blue\ girl.png);
+    background-position: center;
+    background-size: cover;
+}
+p{
+    margin-left: 10rem;
+    word-spacing: 3px;
+}
+button{
+    margin-top: 10rem;
+    width: 25rem;
+    height: 2rem;
+    background-color:#FFC2D6;
+    margin-left: 10rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+}
+.kick,
+.car,
+.tech{
+    color: #1B1642;
+    font-size: 60px;
+    font-weight: 800;
+}
+.word{
+    margin-top: 4rem;
+}
+.take{
+    margin-top: 2rem;
+    background-color: #1AC8BB;
+    width: 12rem;
+    height: 2rem;
+    border-radius:0.3rem;
+}
+
+.be{
+    margin-top: 8rem;
+    margin-left:10rem ;
+}
+.employ{
+    font-size: xx-large;
+    color: #1B1642;
+    font-weight: 600;
+}
+.graduate{
+    margin-top: 2rem;
+    color: #1B1642;
+    opacity: 0.9;
+    font-size: larger;
+}
+.join{
+margin-left: 5rem;
+}
+main{
+    display: flex;
+    gap: 20rem;
+}
+.a{
+    width: 13rem;
+    height: 3.5rem;
+    color: #1B1642;
+    font-size: larger;
+    background-color: #1AC8BB;
+    margin-top: 1rem;
+}
+.money{
+    border-radius: 0;
+}
+.people{
+    margin-top: 6rem;
+     width: 650px;
+    height: 450px; 
+    border-radius: none;
+    margin-right: 3rem;
+}
+.real{
+    /* margin: 18rem; */
+    margin-top: 10rem;
+    margin-left: 8rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1B1642;
+}
+.head{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: larger;
+    color: #1B1642;
+    opacity: 0.7;
+}
+.peopleArticle{
+    /* background-color: blueviolet; */
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 4rem ;
+    flex-wrap: wrap;
+    
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 10px;
+
+}
+.peopleArticle div img{
+    border-radius: 50%;
+}
+
+.personCard{
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.personCard p{
+    align-content: center;
+    text-align: center;
+    margin-left: 0;
+    font-size: larger;
+}
+.quote{
+    width: 100%;
+    height: 30rem;
+    background-color: #1B1642;
+    align-content: center;
+    justify-items: center;
+}
+.moon{
+    font-size: 2rem;
+    color: #D2D0DB;
+    /* margin-bottom: 5rem; */
+}
+.meji{
+    display: flex;
+    margin: 0;
+}
+.meat{
+    border-radius: 50%;
+    width: 7rem;
+    margin-top: 3rem;
+
+}
+.silas{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    font-size: larger;
+    color: #1BD3C6;
+    font-weight: 600 ;
+
+}
+.vivi{
+    margin-top: 7rem;
+    margin-left: -11rem;
+    color: #61658F;
+    font-size: large;
+}
+.ceo{
+    margin-top: 5rem;
+    font-size: 3rem;
+    color: #1B1642;
+    text-align: center;
+}
+.match{
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.bank{
+    width: 84rem;
+    height: 400px;
+    margin: auto;
+    /* background-color: red; */
+    margin-bottom: 10rem;
+    margin-top: 6rem;
+}
+.bank img{
+    margin: 2rem;
+    
+}
+.ready{
+    margin: auto;
+    width: 90%;
+    height: 40rem;
+    background-color: #1BD3C6;
+    border-radius: 0.8rem;
+}
+.talk{
+    text-align: center;
+   font-size: 3rem;
+   font-weight: 600;
+   position: relative;
+   top: 14rem;
+   right: 4rem;
+   color: #1B1642;
+}
+.hire{
+    margin-top: 20rem;
+    width: 13rem;
+    height: 4rem;
+    margin-left: 43rem;
+    background-color: #fff;
+   color: #1B1642;
+font-size: 1.5REM;
+    /* display: flex; */
+}
+.hired{
+    width: 15rem;
+    height: 4rem;
+    margin-right: 22rem;
+    margin: 1REM;
+   background-color: #1B1642;
+   color: #fff;
+font-size: 1.5REM;
+
+
+}
+footer{
+    margin-top: 4rem;
+    background-color: #1B1642;
+    width: 100%;
+    height: 40rem;
+}
+.team{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    display: flex;
+}
+ /* Main container with offset */
+ .container {
+    padding-left: 100px;  /* Moves everything inside to the right */
+    /* padding-top: 20px; */
+}
+
+/* Flexbox to align square and paragraphs */
+.content {
+    display: flex;
+    align-items: flex-start; /* Aligns all items to the top */
+    gap: 14Rem; /* Adds space between square and text */
+    margin-top: 5rem;
+}
+
+/* Square styling */
+.words {
+    width: 500px;
+    height: 300px;
+    background-color:#262A2D;
+}
+
+/* Paragraph styling */
+.text-container p {
+    margin: 0; /* Removes default paragraph margin for better alignment */
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* Styles for individual paragraphs */
+.text-container p:first-of-type {
+    margin-top: 1rem;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.text-container p:nth-of-type(2) {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 2rem;
+}
+a{
+    text-decoration: none;
+}
+
+.text-container p:nth-of-type(3) {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 14px;
+}
+.data{
+    align-items: center;
+    justify-content: last baseline;
+}
+
+
+.barbie {
+    display: flex;
+    justify-content: space-between;  /* Spreads out contact and list sections */
+    align-items: flex-start;
+  }
+
+   .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;                /* Aligns text to the left */
+    max-width: 200px;
+    margin: 0;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 3rem;
+    /* margin-left: 3rem; */
+    /* max-width: 200px;                Limits the width for better alignment  */
+  } 
+
+  .logo {
+    width: 100px;                    /* Sets the logo width */
+    margin-bottom: 10px;             /* Adds space below the logo */
+    padding-top: 8rem;
+
+  }
+ 
+
+  .maths {
+    display: flex;                   /* Places items in a row */
+    gap: 40px;                       /* Reduces spacing between lists */
+    justify-content: flex-end;       /* Aligns lists to the right side */
+    padding-top: 8rem;
+    margin-right: 10rem;
+  }
+
+  .list {
+    list-style-type: none;           /* Removes default bullet points */
+    padding: 0;                      /* Removes padding around list */
+    margin: 0;                       /* Removes margin around list */
+    color: white;
+    font-size: larger;
+  }
+
+  .list li {
+    padding: 20px 0;                  /* Adds spacing between list items */
+    width: 20rem;
+  }
+  .pro{
+    color:#79748F;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .maths {
+    display: flex;                
+    gap: 80px;                    
+    justify-content: flex-end; 
+    padding-top: 8rem;
+    margin-right: 20rem;
+  }
+
+  .list {
+    list-style-type: none;        
+    padding: 0;
+    margin: 0;                   
+  }
+
+  .list li {
+    padding: 30px 0;               
+  }
+ .eng{
+    justify-content: flex-start;    
+    
+ } */
